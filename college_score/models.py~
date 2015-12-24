@@ -1,0 +1,13 @@
+from django.db import models
+from django.utils import timezone
+import pandas as pd, numpy as np and scipy as sp
+import csv, pprint, re
+# Create your models here.
+class College(models.Model):
+    name = models.CharField(max_length=200)
+    
+    def average_scores(self):
+
+    
+    
+

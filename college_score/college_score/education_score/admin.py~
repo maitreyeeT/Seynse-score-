@@ -1,0 +1,11 @@
+from django.contrib import admin
+from .models import College
+from .models import Employee
+from .models import IncomeBoost
+from .models import CourseRank
+# Register your models here.
+
+admin.site.register(College)
+admin.site.register(Employee)
+admin.site.register(IncomeBoost)
+admin.site.register(CourseRank)
